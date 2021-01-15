@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "http-server -s -p 8000",
+    "snapshots": "percy exec -- node snapshots.js"
+  },
+  "devDependencies": {
+    "@percy/script": "^1.0.0",
+    "http-server": "^0.12.3"
+  }
+}
